@@ -14,6 +14,8 @@ export default function Appointment({ data, onCancel }) {
     });
   }, [data.date]);
 
+  console.tron.log(data.provider.avatar);
+
   return (
     <Container past={data.past}>
       <Left>

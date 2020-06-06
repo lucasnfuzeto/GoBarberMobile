@@ -4,7 +4,6 @@ import api from '~/services/api';
 
 import Background from '~/components/Background';
 import Appointment from '~/components/Appointment';
-
 import { Container, Title, List } from './styles';
 
 export default function Dashboard() {
